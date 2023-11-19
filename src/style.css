@@ -1,0 +1,64 @@
+body {
+  font-family: arial;
+  background-color: rgb(234, 234, 234);
+  padding: 0px;
+  margin-top: 16px;
+  zoom: 120%;
+}
+
+#app {
+  margin: 0 auto; 
+  width: 1024px;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.actions {
+  display: flex; 
+}
+
+.actions .left {
+  flex: 1;
+  text-align: left; 
+}
+
+.actions .right {
+  flex: 1; 
+  text-align: right;
+}
+
+button {
+  background-color: black;
+  color: white; 
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.screenshot-container {
+  position: relative;
+ 
+}
+
+.screenshot-container > div {
+  margin: 0px; 
+  padding: 0px;
+}
+
+.screenshot-container > .screenshot img {
+  border:  2px solid black;
+}
+
+
+.screenshot-container .map {
+  background-color: transparent;
+  z-index: 10;
+
+}
+
+
+
+
+button[disabled] {
+  opacity: 0.6;
+}
