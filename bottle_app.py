@@ -15,7 +15,7 @@ app = Bottle()
 
 @app.get("/")
 def index():
-    return static_file(filepath, root='/home/lvjhn98/cccsp-utt/dist/index.html')
+    return static_file("index.html", root='/home/lvjhn98/cccsp-utt/dist/')
 
 @app.post('/submit')
 @enable_cors
