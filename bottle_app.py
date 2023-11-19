@@ -46,6 +46,6 @@ def submit():
 def server_static(filepath):
     return static_file(filepath, root='/home/lvjhn98/cccsp-utt/dist/')
 
-app.install(CorsPlugin(origins=['https://cccsp-utt.surge.sh']))
+app.install(CorsPlugin(origins=['https://lvjhn98.pythonanywhere.com/']))
 
 application = app
