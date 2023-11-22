@@ -75,7 +75,7 @@
             placeholder="Please explain why you rate the page as below 4." 
         ></textarea>
         
-        <br /> <br /> 
+        <br />
 
         <RatingsGuide />
     </div>
