@@ -20,6 +20,11 @@
         text-align: left;
     }
 
+    .rating-guide ul {
+        padding: 0px; 
+        margin: 0px;
+    }
+
     li {
         margin-top: 0px;
         list-style: none;
