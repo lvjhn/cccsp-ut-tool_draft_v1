@@ -20,7 +20,7 @@
         text-align: left;
     }
 
-    .rating-guide ul {
+    .ratings-guide ul {
         padding: 0px; 
         margin: 0px;
     }
