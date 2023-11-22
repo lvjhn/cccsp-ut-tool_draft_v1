@@ -18,7 +18,6 @@ def index():
     return static_file("index.html", root='/home/lvjhn98/cccsp-utt/dist/')
 
 @app.post('/submit')
-@enable_cors
 def submit():
     some_uuid = uuid.uuid4()
 

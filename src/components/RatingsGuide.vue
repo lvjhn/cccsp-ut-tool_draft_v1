@@ -5,11 +5,11 @@
 <template> 
     <div class="ratings-guide">
         <ul>
-            <li><b>5 Stars</b> - Excellent</li>
+            <li><b>5 Stars</b> - High Acceptable</li>
             <li><b>4 Stars</b> - Acceptable</li>
             <li><b>3 Stars</b> - Neutral</li>
             <li><b>2 Stars</b> - Unacceptable</li>
-            <li><b>1 Stars</b> - Very Unacceptable</li>
+            <li><b>1 Stars</b> - Highly Unacceptable</li>
         </ul>
     </div>
 </template>
